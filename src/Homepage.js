@@ -5,22 +5,22 @@ import 'animate.css';
 
 function Homepage() {
     return (
-        <>
-        My Website
-        <button onClick={
-            store.addNotification({
-                title: 'Dropbox',
-                message: 'Files were synced',
-                type: 'default',
-                container: 'bottom-right',
-                animationIn: ["animated", "fadeIn"],
-                animationOut: ["animated", "fadeOut"],
-                dismiss: {
-                    duration: 3000
-                }
-            })
-        }>Add notification</button>
-        </>
+        <div>
+            <h1>My Website</h1>
+            <button onClick={
+                store.addNotification({
+                    title: 'Dropbox',
+                    message: 'Files were synced',
+                    type: 'default',
+                    container: 'bottom-right',
+                    animationIn: ["animated", "fadeIn"],
+                    animationOut: ["animated", "fadeOut"],
+                    dismiss: {
+                        duration: 3000
+                    }
+                })
+            }>Add notification</button>
+        </div>    
     )
 }
 
