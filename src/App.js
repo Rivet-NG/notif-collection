@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactNotifications } from 'react-notifications-component';
-import Homepage from './Homepage';
+import Homepage from './Homepage.js';
 
 function App() {
   return (
