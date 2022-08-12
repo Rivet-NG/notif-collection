@@ -1,12 +1,10 @@
 import React from 'react';
-import { ReactNotifications } from 'react-notifications-component';
-import Homepage from './Homepage.js';
+import SimpleNotification from './SimpleNotification.js';
 
 function App() {
   return (
     <div>
-      <ReactNotifications />
-        <Homepage />
+      <SimpleNotification/ >
     </div>
   );
 }
